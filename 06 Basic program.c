@@ -16,8 +16,5 @@ int main()
   getch();
   return 0;
 }
-on => %d + %d =%d",No1, No2,sum);
+
   
-  getch();
-  return 0;
-}
