@@ -3,24 +3,23 @@
 
 int main()
 {
-   int Num;
-   clrscr();
+   int Num = 0;
    
    printf("Enter the Number:");
    scanf("%d",&Num);
    
    if(Num > 0)
    {
-       printf("Number is positive");
+     printf("Number is positive");
    }
    else if(Num < 0)
    { 
-       printf("Number is negative");
+     printf("Number is negative");
    }
    else
    { 
-       printf("Number is zero:");
-    }
+      printf("Number is zero:");
+   }
      
   getch();
   return 0;
