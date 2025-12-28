@@ -3,8 +3,7 @@
 
 int main()
 {
-   int a , b ;
-   clrscr();
+   int a = 0 , b = 0 ;
    
    printf("Enter the two number:");
    scanf("%d%d",&a,&b);
