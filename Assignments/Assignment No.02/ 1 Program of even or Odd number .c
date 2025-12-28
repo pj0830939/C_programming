@@ -3,8 +3,7 @@
 
 int main()
 {
-   int Num;
-   clrscr();
+   int Num = 0; 
    
    printf("Enter the Number:");
    scanf("%d",&Num);
