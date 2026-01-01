@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  char  chr ='\0';
+  
+  printf("\n Enter a character:");
+  scanf("%c",&chr);
+  
+  if((chr >= 'a' && chr <= 'z'))
+ 
+  if(chr == 'a' || chr == 'e' || chr == 'i' || chr == 'o'|| chr == 'u')
+  
+  {
+    printf("The character is a vowel.\n");
+  }
+  else
+  {
+    printf("The character is a consonant.\n");
+  }
+  else
+  {
+    printf("The character is a Not on Alphabet.\n");
+  }
+ 
+  printf("\n Thanks...");
+ 
+  getch();
+  return 0;
+}
