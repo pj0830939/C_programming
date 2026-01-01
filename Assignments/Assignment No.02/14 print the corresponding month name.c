@@ -1,7 +1,5 @@
-#include <stdio.h>
-
-//Compiler version gcc  6.3.0
-
+#include<studio.h>
+#include<conio.h>
 int main()
 {
   int month = 0;
