@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+  char ch = 0;
+  
+  for(ch = 'H'; ch <= 'N'; ch++)
+  {
+    printf("%c",ch);
+  }
+  printf("\n Thank....");
+  
+  getch();
+  return 0;
+}
